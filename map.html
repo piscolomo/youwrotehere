@@ -1,0 +1,10 @@
+<aside id="left">
+		<a id="loginbutton" href="#add">Add Post</a>
+		<h1>{{ user.name }}</h1>
+		<img ng-src="{{ user.urlimg }}" alt="">
+		<p>{{ user.descripcion }}</p>
+		<h3>Últimos posts</h3>
+		<ul>
+			<li ng-repeat="item in data"><a ng-href="#post/{{$index+1}}">{{ item.texto | firstcharacters }}</a></li>
+		</ul>
+</aside>

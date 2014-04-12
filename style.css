@@ -1,0 +1,21 @@
+aside#left{
+	float: left;
+	width: 200px;
+	padding: 15px;
+}
+
+#loginbutton{
+	border-radius: 10px;
+	width: 95px;
+	background:#2ecc71;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#detailpost{
+	padding: 20px;
+}
