@@ -1,10 +1,49 @@
+ html, body, #map-canvas {
+    height: 800px;
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color: #E74C3C;
+}
+
+textarea{
+	width: 90%;
+}
+
+input[type="text"]{
+	margin-bottom: 15px;
+}
+
+.disabled{display: none;}
+
 aside#left{
 	float: left;
 	width: 200px;
 	padding: 15px;
 }
 
-#loginbutton{
+#backbutton{
+	border-radius: 10px;
+	width: 95px;
+	background:#E74C3C;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+#loginbutton,#savepost{
 	border-radius: 10px;
 	width: 95px;
 	background:#2ecc71;
@@ -14,6 +53,7 @@ aside#left{
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 #detailpost{
