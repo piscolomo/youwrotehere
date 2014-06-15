@@ -21,7 +21,7 @@ angular.module("myapp", ['ngRoute', 'firebase'])
 	        	//that's because $firebase inject by prototype, methods can it show error if we use to initialize LatLng
 	        	if(item.texto){
 		        	new google.maps.Marker({
-					    position: new google.maps.LatLng(item.coorx,item.coory),
+					    position: new google.maps.LatLng(parseFloat(item.coorx),parseFloat(item.coory)),
 					    map: map,
 					    title: item.texto
 					});
